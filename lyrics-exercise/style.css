@@ -1,0 +1,38 @@
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: franklin-gothic-atf, sans-serif;
+    margin-bottom: 50 px;
+}
+
+body{
+    font-family: franklin-gothic-atf, sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+main{
+    text-align: center;
+    max-width: 800px;
+
+}
+
+p {
+    white-space: pre-wrap;
+    color: white;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
