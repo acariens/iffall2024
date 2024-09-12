@@ -1,0 +1,71 @@
+html{
+    font-family: "Open Sans", sans-serif;
+}
+
+p{
+    font-size: 15pt;
+}
+
+h1{
+    font-size: 30pt;
+}
+
+h2{
+    margin-top: 50pt;
+}
+
+h3{
+    font-size: 10pt;
+    font-weight: normal;
+    color:rgb(254, 25, 33);
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    margin-left: 10%;
+}
+
+p.fontweight.bold{
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+p.fontstyle.italic{
+    font-style: italic;
+    font-size: 15 pt;
+}
+
+p.letterspacing.big{
+    letter-spacing: 0.4em;
+}
+
+p.letterspacing.small{
+    letter-spacing:-0.1em;
+}
+
+p.textdecoration.underline{
+    text-decoration: underline;
+}
+
+p.textdecoration.linethrough{
+    text-decoration: line-through;
+}
+
+p.textdecoration.overline{
+    text-decoration: overline;
+}
+
+p.texttransform.upppercase{
+    text-transform: uppercase;
+}
+
+p.texttransform.capitalize{
+    text-transform: capitalize;
+}
+
+p.texttransform.lowercase{
+    text-transform: lowercase;
+}
