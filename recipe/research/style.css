@@ -1,0 +1,49 @@
+html{
+    font-family: franklin-gothic-atf, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+p.description.intro{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2.description.heading{
+    text-align: center;
+}
+
+img{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+main{
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a.source{
+    text-align: center;
+}
+
+h2.sample.imagery{
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+    margin: 20px 0;
+}
+
+.image-gallery img {
+    width: calc(33.33% - 10px);
+    height: auto;
+}
