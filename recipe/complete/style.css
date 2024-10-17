@@ -1,0 +1,169 @@
+body{
+    font-family: "Afacad Flux", sans-serif;
+}
+
+main{
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url('./images/jamaican-jerk-chicken-FT-RECIPE0918-eabbd55da31f4fa9b74367ef47464351.jpg');
+    background-size: cover;
+}
+
+h1{
+    margin: 0;
+    font-size: 80px;
+    line-height: 1;
+    color: white;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 2.1;
+    margin: 0;
+    color: white;
+}
+
+h4{
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.description{
+    width: 600px;
+    margin: auto;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+p{
+    text-align: left;
+}
+
+p.textdescription{
+    text-align: center;
+}
+
+.ingredients-grid{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.ingredients-grid img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+}
+
+ol.prepwork{
+    text-align: left;
+}
+
+
+
+h3{
+    line-height: 1;
+}
+
+.instructions{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 95%;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+h2.instructions{
+    line-height: 1;
+    color: black;
+    text-align: left;
+    margin-left: 0;
+}
+
+.instructions p {
+    margin-top: 0;
+    text-align: left;
+}
+
+.instructions h3 {
+    margin-bottom: 5px; 
+    line-height: 1.2; 
+    text-align: left;
+}
+
+.instructions img{
+    padding-top: 40px;
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+}
+
+.source{
+    margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+        gap: px;
+    }
+    
+    .ingredients-grid, .instructions {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .description {
+        width: 90%;
+    }
+
+    .instructions {
+        width: 100%;
+        padding: 10px 10px;
+        text-align: left;
+    }
+
+    .ingredients-grid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .source{
+        text-align: center;
+    }
+}
