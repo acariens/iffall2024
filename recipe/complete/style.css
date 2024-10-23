@@ -125,6 +125,11 @@ h2.instructions{
 }
 
 @media (max-width: 768px) {
+
+    main{
+        overflow-x: hidden;
+    }
+    
     header {
         padding-top: 100px;
         padding-bottom: 80px;
@@ -138,9 +143,13 @@ h2.instructions{
         font-size: 24px;
     }
 
+    h4{
+        margin: auto;
+    }
+
     .info-grid {
         grid-template-columns: 1fr;
-        gap: px;
+        gap: 0 px;
     }
     
     .ingredients-grid, .instructions {
@@ -165,5 +174,9 @@ h2.instructions{
 
     .source{
         text-align: center;
+    }
+
+    .instructions img{
+        padding: 0;
     }
 }
