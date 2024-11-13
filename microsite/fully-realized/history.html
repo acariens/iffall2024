@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <title>Sumikko Gurashi</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bagel+Fat+One&family=Balthazar&family=DM+Serif+Display:ital@0;1&family=News+Cycle:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bagel+Fat+One&family=Balthazar&family=DM+Serif+Display:ital@0;1&family=News+Cycle:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+		<script src="https://kit.fontawesome.com/ae6839a4d3.js" crossorigin="anonymous"></script>
+
+        
+    </head>
+    <body>
+        <header>
+            <a href="./index.html" class="header-title">Sumikko Gurashi</a>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+        <div class="header-buttons">
+            <a href="./allcharacter.html" class="header-button"><i class="fa fa-users"></i> ALL CHARACTERS</a>
+            <a href="./mediaproject.html" class="header-button"><i class="fa fa-film"></i> MEDIA PROJECTS</a>
+            <a href="./productlines.html" class="header-button"><i class="fa fa-box"></i> PRODUCT LINES</a>
+            <a href="./history.html" class="header-button"><i class="fa fa-history"></i> HISTORY</a>
+        </div>
+        </header>
+
+        <main>
+
+            <section class="intro">
+                <div class="title-container">
+                    <h1 class="allcharacters">History</h1>
+                </div>
+            </section>
+
+            <img src="./images/history photo.webp" alt="history photo" class="historyphoto">
+
+            <p class="productlinestext">Yuri Yokomizo was a new designer when she developed the Sumikko Gurashi characters in her first year of joining San-X. Before getting hired at San-X, Yokomizo studied graphic design at Tama Art University where Hikaru Suemasa, creator of the San-X character Tarepanda, was one of her professors. Yokomizo based the Sumikko Gurashi characters on doodles she made in the corners of her notebooks as a student. They were first conceived as a series of cute animal characters, and early concept art included a sheep and a giraffe.</p>
+            <p class="productlinestext">The polar bear character Shirokuma was originally conceived as a flawed white rabbit stuffed toy with ears that are too short. It was also considered for a main character role, but ultimately the lone character was deemed too gloomy and lonely, and a group setting was used instead. The cat character Neko was added to the group after winning a survey San-X did with children in elementary school. The addition of the leftover pork cutlet character Tonkatsu shifted the focus. Yokomizo said in 2015 that characters like Tonkatsu and Tapioca were inspired by a feeling of pity for that which is left over. In 2019 Yokomizo said that some parts of the books are based on her own experiences, like a scene where the characters are afraid of answering the phone. </p>
+            <p class="productlinestext">In 2019, The Japan Times described Sumikko Gurashi as being part of a trend which first began with the release of the San-X character Rilakkuma in 2003, where characters have more negative personality traits compared to earlier kawaii (cute) characters which were more cheerful or bland.Marceline Smith, the author of a book about kawaii, described Sumikko Gurashi as "characters that feel left out or anxious" which makes them "more relevant for a generation who face greater uncertainty in their lives". </p> 
+            
+            
+        </main>
+        
+        <footer class="footer">
+            <p>2024 Sumikko Gurashi</p>
+        </footer>
+
+        <script>
+            function toggleMenu() {
+                document.querySelector('.header-buttons').classList.toggle('show');
+            }
+        </script>
+
+    </body>
+</html>

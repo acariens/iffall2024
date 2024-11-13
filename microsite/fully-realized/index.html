@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <title>Sumikko Gurashi</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bagel+Fat+One&family=Balthazar&family=DM+Serif+Display:ital@0;1&family=News+Cycle:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bagel+Fat+One&family=Balthazar&family=DM+Serif+Display:ital@0;1&family=News+Cycle:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+		<script src="https://kit.fontawesome.com/ae6839a4d3.js" crossorigin="anonymous"></script>
+
+        
+    </head>
+    <body>
+        <header>
+            <a href="./index.html" class="header-title">Sumikko Gurashi</a>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+        <div class="header-buttons">
+            <a href="./allcharacter.html" class="header-button"><i class="fa fa-users"></i> ALL CHARACTERS</a>
+            <a href="./mediaproject.html" class="header-button"><i class="fa fa-film"></i> MEDIA PROJECTS</a>
+            <a href="./productlines.html" class="header-button"><i class="fa fa-box"></i> PRODUCT LINES</a>
+            <a href="./history.html" class="header-button"><i class="fa fa-history"></i> HISTORY</a>
+        </div>
+
+        </header>
+
+        <main>
+
+            <section class="intro">
+                <div class="title-container">
+                    <h1>Sumikko Gurashi</h1>
+                    <img src="./images/all-characters.png" alt="All Character Photo" class="mainimage" />
+                </div>
+            </section>
+
+            <section class="introductiontext">
+                <p class="introtext">
+                    Sumikko Gurashi is a set of fictional characters produced by the Japanese company San-X. The name directly translates to "life in the corner". Their main inspiration was the feeling of comfort when one is near a corner, and they were based on Yokomizo's notebook doodles when she was a student. A wealth of merchandise, such as stationery, plush toys, and clothing, is sold. Books,mobile apps, and video games based on the franchise have also been produced. Three animated films with Sumikko Gurashi were released in 2019, 2021, and 2023.
+    
+                </p>
+
+            </section>
+
+            <hr class="divider-line">
+            
+            <section class="intropagegrid">
+                <h2>Main Characters</h2>
+
+                <div class="grid-item">
+                    <img src="./images/pngs/shirokuma.png" alt="shirokuma" class="character-image">
+                    <div class="character-info">
+                        <h3>Shirokuma</h3>
+                        <p>A shy polar bear who ran away from the Arctic Circle. It is sensitive to the cold and feels most at home while drinking hot tea in the corner. It likes to draw and bathe in hot springs and has an easygoing personality.</p>
+                    </div>
+                </div>
+            
+                <div class="grid-item">
+                    <img src="./images/pngs/penguin_.png" alt="penguin" class="character-image">
+                    <div class="character-info">
+                        <h3>Penguin</h3>
+                        <p>Resembles a green penguin, but is unsure if it really is one. It likes eating cucumbers and has vague memories of having a plate on its head (both of which strongly imply that it is a kappa).</p>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <img src="./images/pngs/tonkatsu.png" alt="tonkatsu" class="character-image">
+                    <div class="character-info">
+                        <h3>Tonkatsu</h3>
+                        <p>An edge slice from a fried pork cutlet. It is composed of 1% meat and 99% fat, so it was left behind on its plate after the meal finished. It often puts condiments like sauce, salt, and mustard on itself to assert that it is still edible.</p>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <img src="./images/pngs/neko.png" alt="neko" class="character-image">
+                    <div class="character-info">
+                        <h3>Neko</h3>
+                        <p>A timid and socially anxious calico cat. It is self-conscious about its rotundity. It often gives the corner away to other Sumikko because of its personality. It feels safe when snugly covered, like in a pouch or under an empty cat food can. </p>
+                    </div>
+                </div>
+
+                <div class="grid-item no-border">
+                    <img src="./images/pngs/tokage.png" alt="tokage" class="character-image">
+                    <div class="character-info">
+                        <h3>Tokage</h3>
+                        <p>An aquatic dinosaur who poses as a lizard to avoid being captured. It was separated from its mother, but they later reunited. It is friends with Nisetsumuri, the fake snail, and Tokage (Real), who is an actual lizard. characters but was added after about three years.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            
+        </main>
+        
+        <footer class="footer">
+            <p>2024 Sumikko Gurashi</p>
+        </footer>
+
+        <script>
+            function toggleMenu() {
+                document.querySelector('.header-buttons').classList.toggle('show');
+            }
+        </script>
+
+    </body>
+</html>
