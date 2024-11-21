@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <title>Sumikko Gurashi</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bagel+Fat+One&family=Balthazar&family=DM+Serif+Display:ital@0;1&family=News+Cycle:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bagel+Fat+One&family=Balthazar&family=DM+Serif+Display:ital@0;1&family=News+Cycle:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+		<script src="https://kit.fontawesome.com/ae6839a4d3.js" crossorigin="anonymous"></script>
+
+        
+    </head>
+    <body>
+        <header>
+            <a href="./index.html" class="header-title">Sumikko Gurashi</a>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+        <div class="header-buttons">
+            <a href="./allcharacter.html" class="header-button"><i class="fa fa-users"></i> ALL CHARACTERS</a>
+            <a href="./mediaproject.html" class="header-button"><i class="fa fa-film"></i> <strong>MEDIA PROJECTS</strong></a>
+            <a href="./productlines.html" class="header-button"><i class="fa fa-box"></i> PRODUCT LINES</a>
+            <a href="./history.html" class="header-button"><i class="fa fa-history"></i> HISTORY</a>
+        </div>
+        </header>
+
+        <main>
+
+            <a id="top"></a>
+
+            <section class="intro">
+                <div class="title-container">
+                    <h1 class="allcharacters">Media Projects</h1>
+                </div>
+            </section>
+
+            <h4 class="mediaprojects">
+                Sumikko Gurashi The Movie - The Pop-up Book and the Secret Child
+            </h4>
+
+            <section class="movie-info">
+                <div class="movie-grid">
+                    <img src="./images/Sumikko Gurashi The Movie .jpg" alt="Sumikko Gurashi Movie Poster" class="movie-image">
+                    <div class="movie-description">
+                        <p>For the seventh anniversary in 2019, an anime film was released, called Sumikko Gurashi The Movie - The Pop-up Book and the Secret Child. The film was produced by the studio Fanworks who previously made the Aggretsuko series. It was directed by Mankyū, with the script written by Takashi Sumita and Kaori Hino was the art director. It opened in 114 theaters in Japan in November, ranked #3 on opening weekend, and rose to #2 the week after. It grossed a total of 1.45 billion yen in 2019 and won Best Animation of the Year at the Japanese Movie Critics Awards.</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="divider-line">
+
+            <h4 class="mediaprojects">
+                Sumikko Gurashi The Movie: A Magical Child of the Blue Moonlit Night
+            </h4>
+            
+            <section class="movie-info">
+                <div class="movie-grid">
+                    <img src="./images/sumikko gurashi movie 2.jpg" alt="Sumikko Gurashi Movie Poster" class="movie-image">
+                    <div class="movie-description">
+                        <p>In 2021, a second movie was released, Sumikko Gurashi The Movie: A Magical Child of the Blue Moonlit Night. It was directed by Takahiro Omori with a screenplay by Reiko Yoshida. Like the first movie, it was produced by Fanworks with art directed by Kaori Hino. The theme song was performed by the alternative rock group Bump of Chicken. Yuri Yokomizo made rough sketches for character designs and collaborated with the movie design team in creating the concept. Much of the work on the movie was done remotely, using screen sharing. It opened in 184 theaters and was #2 at the weekend box office, going up to #1 the week after. As of January 2022, the total box office was over 1 billion yen.</p>
+                    </div>
+                </div>
+            </section>
+
+            
+        </main>
+
+        <a href="#top" class="back-to-top" aria-label="Back to Top">↑</a>
+        
+        <footer class="footer">
+            <p>2024 Sumikko Gurashi</p>
+            <div class="footer-buttons">
+                <a href="./allcharacter.html" class="footer-button"><i class="fa fa-users"></i></a>
+                <a href="./mediaproject.html" class="footer-button"><i class="fa fa-film"></i></a>
+                <a href="./productlines.html" class="footer-button"><i class="fa fa-box"></i></a>
+                <a href="./history.html" class="footer-button"><i class="fa fa-history"></i></a>
+            </div>
+        </footer>
+
+        <script>
+            function toggleMenu() {
+                document.querySelector('.header-buttons').classList.toggle('show');
+            }
+        </script>
+
+    </body>
+</html>
