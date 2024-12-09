@@ -1,0 +1,78 @@
+body {
+    font-family: "Afacad Flux", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px auto;
+    max-width: 800px;
+    gap: 20px;
+}
+
+.griditem {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.griditem a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.griditem img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.griditem:hover img {
+    transform: scale(1.05);
+}
+
+.griditem p {
+    margin: 0;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+}
